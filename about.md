@@ -10,4 +10,4 @@ Graduate Student
 
 ### Contact me
 
-wen.si@utdallas.edu
+[wen.si@utdallas.edu](mailto:wen.si@utdallas.edu)
