@@ -6,7 +6,7 @@
 name: Wen Si
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: The University of Texas at Dallas
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://wensi001.github.io/
@@ -18,7 +18,7 @@ avatar: https://wensi001.github.io/
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: wen.si@utdallas.edu
   facebook:
   flickr:
   github: barryclark/jekyll-now
