@@ -13,7 +13,8 @@ The results of the non-API method shows as follows:
 ![](https://wensi001.github.io/CDC_tweets.png)
 
 
-2. For the API method, I conducted a search of twitter data by username and keyword. The username is "CDCgov" and the keyword is "COVID-19". The igraph for both username and keyword is conducted on Monday June 15th at 11am.
+
+2.  For the API method, I conducted a search of twitter data by username and keyword. The username is "CDCgov" and the keyword is "COVID-19". The igraph for both username and keyword is conducted on Monday June 15th at 11am.
 
 The igraph for "CDCgov" shows as follows:
 
