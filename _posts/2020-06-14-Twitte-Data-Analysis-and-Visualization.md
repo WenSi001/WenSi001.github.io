@@ -8,5 +8,7 @@ I used both API and non-API method to get Twitter data. The data is tweets infor
 1. For the non-API method, the data file is attached [here](https://github.com/WenSi001/WenSi001.github.io/blob/master/cdc.csv).
 
 The results of the non-API method shows as follows:
+
+
 ![](https://wensi001.github.io/CDC_tweets.png)
 
