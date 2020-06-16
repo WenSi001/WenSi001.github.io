@@ -9,7 +9,7 @@ For the non-API method, the data file is attached [here](https://github.com/WenS
 
 The results of the non-API method shows as follows, the top three grpahs shows retweetes, replies and favoriates of the CDC tweet using R. And the code for R-script is attached [here](https://github.com/WenSi001/WenSi001.github.io/blob/master/Analysis%20exercise%202_Rcode.R).
 
-![](https://wensi001.github.io/CDC_retweets.png)
+![](https://wensi001.github.io/retweets.png)
 
 
 ![](https://wensi001.github.io/CDC_replies.png)
