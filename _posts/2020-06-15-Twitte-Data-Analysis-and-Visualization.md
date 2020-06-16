@@ -15,7 +15,7 @@ The results of the non-API method shows as follows, the top three grpahs shows r
 ![](https://wensi001.github.io/replies.png)
 
 
-![](https://wensi001.github.io/CDC_favoriate.png)
+![](https://wensi001.github.io/favoriate.png)
 
 
 The graph below shows graph combines retweets, replies and favorite together by month using jupyter notebook.
