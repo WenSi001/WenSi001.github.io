@@ -12,7 +12,7 @@ The results of the non-API method shows as follows, the top three grpahs shows r
 ![](https://wensi001.github.io/retweets.png)
 
 
-![](https://wensi001.github.io/CDC_replies.png)
+![](https://wensi001.github.io/replies.png)
 
 
 ![](https://wensi001.github.io/CDC_favoriate.png)
