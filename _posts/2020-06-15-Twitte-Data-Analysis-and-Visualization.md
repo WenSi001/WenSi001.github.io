@@ -35,7 +35,7 @@ Here is the shows the results for "mentions" for "CDCgov":
 
 Surgeon_General: The US Surgeon General
 
-NIOSH: The National Institue for Occupational Safty and Health
+NIOSH: The National Institute for Occupational Safty and Health
 
 CDCMMWR: Morbidity and Mortality Weekly Report
 
