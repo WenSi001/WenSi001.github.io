@@ -39,6 +39,8 @@ NIOSH: The National Institute for Occupational Safty and Health
 
 CDCMMWR: Morbidity and Mortality Weekly Report
 
+
+
 For the API method, I conducted a search of twitter data by username and keyword. The username is "CDCgov" and the keyword is "COVID-19". The igraph for both username and keyword is conducted on Monday June 15th at 11am.
 
 The igraph for "CDCgov" shows as follows:
