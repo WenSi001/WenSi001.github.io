@@ -26,6 +26,14 @@ The graph below shows graph combines retweets, replies and favorite together by 
 The sample code could be accessed [here](https://github.com/WenSi001/WenSi001.github.io/blob/master/EPPS7V81%20Exercise%202.pdf)
 
 
+Here is the shows the results for "mentions" for "CDCgov":
+
+
+
+![](https://wensi001.github.io/mentions.jpeg)
+
+
+
 For the API method, I conducted a search of twitter data by username and keyword. The username is "CDCgov" and the keyword is "COVID-19". The igraph for both username and keyword is conducted on Monday June 15th at 11am.
 
 The igraph for "CDCgov" shows as follows:
