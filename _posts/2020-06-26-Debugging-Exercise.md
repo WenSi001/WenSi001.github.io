@@ -197,26 +197,13 @@ type(my_dict)
 
 ```python
 # 4.1.2 Playing_Around_with_Variables
-```
 
-
-```python
 original_var = 30
-```
-
-
-```python
 new_var = original_var + 20
-```
-
-
-```python
 # new_var = 50
-```
-
-
-```python
+new_var
 type(new_var)
+
 ```
 
 
@@ -229,31 +216,24 @@ type(new_var)
 
 ```python
 orginal_var2 = 10
-```
-
-
-```python
 origional_var2 = orginal_var2 + 10
-```
-
-
-```python
+origional_var2
 # origional_var2 = 20
 ```
 
 
+
+
+    20
+
+
+
+
 ```python
 string1 = "this is the first part of the string"
-```
-
-
-```python
 string1 = string1 + "this is the second part of the string"
-```
-
-
-```python
 string1
+# debugging: the orginal script used "String1" instead of "string1"
 ```
 
 
@@ -265,62 +245,31 @@ string1
 
 
 ```python
-# debugging: the orginal script used "String1" instead of "string1"
-```
-
-
-```python
 first_bit = 14
-```
-
-
-```python
 second_bit = "14"
-```
-
-
-```python
 # This two variable cannot be added together, because they are different types
 ```
 
 
 ```python
 my_integer_varaible = 30
-```
-
-
-```python
 # To 'stringify' something, we can use str(variable)
-
 my_stringified_variable = str(my_integer_variable)
-```
-
-
-```python
 # debugging: str(my_integer_variable) not st(my_integer_varaible)
 ```
 
 
 ```python
 my_string_variable = "30"
-```
-
-
-```python
 # To 'integerify' something, we can use int(varaible)
-
 my_integerified_varaible = int(my_string_variable)
-```
-
-
-```python
 my_integer_variable = 30
 ```
 
 
 ```python
+my_integer_variable = 30
 # To 'floatify' an integer, we can use float(variable)
-
 my_floatified_variable = float(my_integer_varaible)
 ```
 
@@ -337,4 +286,5 @@ type(my_floatified_variable)
 
 
     float
+
 
