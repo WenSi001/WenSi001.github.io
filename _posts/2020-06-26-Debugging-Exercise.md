@@ -475,3 +475,43 @@ else:
 ```
 
     Phew, that's a big number
+    
+    
+5.1.1 General Purpose Commands
+
+```python
+max(1, 2, 3, 4, 5)       #gives the maximum value of the argument
+min(1, 2, 3, 4, 5)       #gives the minimum value of the argument
+abs(-1)                  #gives the absolute value of the argument- applies to integers and floats only
+type(-50.5)              #gives the variable type
+len("This is a string.") #gives the length of the argument
+
+```
+
+
+
+
+    17
+
+
+
+
+```python
+var1 = (2, 3, 1, 6, 3, 6, 3, 5)
+max (var1)
+# 6
+
+min (var1)
+# 1
+
+type(var1)
+#tuple
+
+len(var1)  # this tuple has 8 things in it
+# 8
+```
+
+
+
+
+    8
