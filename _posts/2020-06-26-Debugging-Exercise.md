@@ -286,5 +286,57 @@ type(my_floatified_variable)
 
 
     float
+    
+    
+4.2.2 Comparing Things
+
+```python
+a = 2
+b = 3
+c = 4
+```
+
+
+```python
+a == b  # The double equals signifies an " is the same as" comparison.
+a != b  # This sigifies a " not the same as" comparison
+b > a   # "is greater than"
+b >= a  # "is greater than or equal to"
+b < a   # "is less than"
+b <= a  # "is less than or equal to"
+c % a   # "modulo" left over when c divided by a
+```
+
+
+
+
+    0
+
+
+
+
+```python
+# Question: Calculation within comparisons, guess the results
+
+a + 1 == b
+# true
+
+c - 1 >= b
+# true
+
+c/4 > a
+# false
+
+a*2 == c
+# true
+
+c % a == 0
+# true
+```
+
+
+
+
+    True
 
 
