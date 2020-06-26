@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Debugging Exercise
+title:  Debugging Exercise
 ---
 
 
