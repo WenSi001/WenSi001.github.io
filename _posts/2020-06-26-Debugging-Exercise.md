@@ -880,5 +880,53 @@ len(Phil)
 
 
     4
+    
+    
+5.3.1 Dictionaries and Dictionariy Method
 
+
+```python
+animal_dict = {"dog": "woof",
+               "bird": "tweet",
+               "cow": "moo",
+               "pig": "oink",
+               "turtle": "?"}
+```
+
+
+```python
+animal_dict["fish"] = "glub"    #adds a new entry
+del animal_dict["fish"]         #removes an entry
+animal_dict["bird"] = "squawk"  #edits an entry
+print(animal_dict["dog"])       #prints the value of the key
+animal_dict.items()             #breaks up dict into items, prints them #METADATA
+animal_dict.keys()              #prints keys
+animal_dict.values()            #prints values
+```
+
+    woof
+
+
+
+
+
+    dict_values(['woof', 'squawk', 'moo', 'oink', '?'])
+
+
+
+
+```python
+dict1 = {"first thing": 1, "second thing": 2, "third thing": 3}
+dict2 = {"dict_within_dict": dict1}
+```
+
+
+```python
+dict2["dict_within_dict"]["second thing"]
+```
+
+
+
+
+    2
 
