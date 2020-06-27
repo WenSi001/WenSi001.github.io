@@ -847,3 +847,38 @@ list_of_list [3][2]
 
     731
 
+5.2 Tuples
+
+```python
+my_tuple = (0, 10, 30)
+my_tuple[1] 
+```
+
+
+
+
+    10
+
+
+
+
+```python
+age = 32
+location = "Manchester"
+hairstyle = "bald"
+energy_level = 0.1
+
+Phil = (age, location, hairstyle, energy_level)
+```
+
+
+```python
+len(Phil)
+```
+
+
+
+
+    4
+
+
