@@ -930,3 +930,49 @@ dict2["dict_within_dict"]["second thing"]
 
     2
 
+
+5.4 String and String Formatting
+
+```python
+string1 = "First Bit."
+space = " "
+string2 = "Second Bit."
+print(string1 + space + string2)
+```
+
+    First Bit. Second Bit.
+
+
+
+```python
+new_string = "this IS a SliGhtly more ComplicaTed strINg"
+
+new_string[1]         #calls the letter at index position one (i.e. the second letter)
+new_string[0:4]       #calls the first four characters
+new_string[5:]        #calls everything including and after the fifth character
+new_string[::2]       #calls all characters in steps of 2 (i.e. every other character)
+new_string[-1:-10:-1] #calls the last ten letters in steps of -1 (i.e. reverse)
+```
+
+
+
+
+    'gNIrts de'
+
+
+
+
+```python
+len(new_string)
+string1.lower() #makes it lower case
+string1.upper() #makes it upper case
+string1.split() #takes each item, puts it in a list as an individual item.
+                #TRY THIS. See what happens.
+
+#You can also put strings together via methods other than concatenation:
+string4 = "is cool."
+string5 = "Programming %s" %string4 #the %s denotes a placeholder for a string.
+                                    #this is more useful than it looks.
+
+```
+
