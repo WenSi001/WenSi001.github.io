@@ -515,3 +515,159 @@ len(var1)  # this tuple has 8 things in it
 
 
     8
+    
+    
+5.1.2 Lists and List Methods
+
+```python
+animals = ["dog", "cat", "bat"]
+animals[2]
+# bat
+animals[0]
+# dog
+animals[-1]  # the last entre in the list
+# bat
+```
+
+
+
+
+    'bat'
+
+
+
+
+```python
+animals[2] = "rat"
+print(animals)
+```
+
+    ['dog', 'cat', 'rat']
+
+
+
+```python
+animals.append("ibex")
+print(animals)
+```
+
+    ['dog', 'cat', 'rat', 'ibex']
+
+
+
+```python
+animals.sort()
+print(animals)
+```
+
+    ['cat', 'dog', 'ibex', 'rat']
+
+
+
+```python
+animals.index("cat")
+```
+
+
+
+
+    0
+
+
+
+
+```python
+animals.insert(1, "llama")
+print(animals)
+```
+
+    ['cat', 'llama', 'dog', 'ibex', 'rat']
+
+
+
+```python
+animals.pop(3)
+print(animals)
+
+# del(animals[3])
+```
+
+    ['cat', 'llama', 'dog', 'rat']
+
+
+
+```python
+animals.remove("dog")
+```
+
+
+```python
+animals[0:1:1]  #calls all the info at index positions from 0 to 1 (not including
+                #1), in steps of 1. NOTE: if you don't set the step (i.e.
+                #animals[0:1]) Python assumes you mean in steps of 1.
+```
+
+
+
+
+    ['cat']
+
+
+
+
+```python
+print(animals)
+```
+
+    ['cat', 'llama', 'rat']
+
+
+
+```python
+animals[-3]
+```
+
+
+
+
+    'cat'
+
+
+
+
+```python
+mammals = ["dog", "cat", "bat"]
+birds = ["parrot", "budgie", "eagle"]
+reptiles = ["chameleon", "komodo dragon", "gecko"]
+fish = ["sturgeon", "marlin", "shark"]
+planet_earth =[mammals, birds, reptiles, fish]
+print(planet_earth)
+
+planet_earth[1]
+# birds
+planet_earth[3]
+# fish
+planet_earth[1][1]
+# birds, budgie
+planet_earth[0][2]
+# mammals, bat
+```
+
+    [['dog', 'cat', 'bat'], ['parrot', 'budgie', 'eagle'], ['chameleon', 'komodo dragon', 'gecko'], ['sturgeon', 'marlin', 'shark']]
+
+
+
+
+
+    'bat'
+
+
+
+
+```python
+cat_index = animals.index("cat")
+animals.insert(cat_index, "cobra")
+
+# argument in animals.insert() (which requires an index position, which we give by cat_index rather than by number)
+# a thing to insert, which we gave as the string "cobra").
+```
