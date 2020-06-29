@@ -976,3 +976,301 @@ string5 = "Programming %s" %string4 #the %s denotes a placeholder for a string.
 
 ```
 
+6.1 Functions
+
+```python
+def myFunction():
+    print("Thanks for printing myFunction()!")
+```
+
+
+```python
+def isEven(num):
+    if num % 2 == 0:
+        return("This number is even. I'll add it to the list.")
+    else:
+        return("This number is odd.")
+    
+# define the function" isEven" if the number is even
+# if the number deived by 2 and the reminder is zero
+# if they are even, stor them in a list
+# return 'this number is even. I'll add it to the list' if the number is even.
+# return 'this number is odd' if else (the number is odd)
+```
+
+
+```python
+isEven(30)
+
+```
+
+
+
+
+    "This number is even. I'll add it to the list."
+
+
+
+
+```python
+isEven(55)
+```
+
+
+
+
+    'This number is odd.'
+
+
+
+
+```python
+def isOdd(num):
+    if num % 2 != 0:
+        return("This number is odd. I'll add it to the list.")
+    else:
+        return("This number is even.")
+    
+
+```
+
+
+```python
+isOdd(33)
+```
+
+
+
+
+    "This number is odd. I'll add it to the list."
+
+
+
+
+```python
+isOdd(20)
+```
+
+
+
+
+    'This number is even.'
+
+
+
+
+```python
+topping_list = ["cheese", "pepperoni", "sausage", "bacon", "anchovies",
+                "salami", "chorizo", "ham", "jalapenos", "pineapple",
+                "olives", "tomatoes"]
+    
+```
+
+
+```python
+def pizzatopping(topping):
+    if type(topping) == str:
+        if topping in topping_list:
+            return("I want them on my pizza")
+    else:
+          return("I don't want them on my pizza")
+       
+```
+
+
+```python
+pizzatopping("cheese")
+```
+
+
+
+
+    'I want them on my pizza'
+
+6.2.1 List and Loops
+
+```python
+for number in range(1,101):
+    if number % 5 == 0 and number % 3 == 0:
+        print("FizzBuzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    else:
+        print(number)
+```
+
+    1
+    2
+    Fizz
+    4
+    Buzz
+    Fizz
+    7
+    8
+    Fizz
+    Buzz
+    11
+    Fizz
+    13
+    14
+    FizzBuzz
+    16
+    17
+    Fizz
+    19
+    Buzz
+    Fizz
+    22
+    23
+    Fizz
+    Buzz
+    26
+    Fizz
+    28
+    29
+    FizzBuzz
+    31
+    32
+    Fizz
+    34
+    Buzz
+    Fizz
+    37
+    38
+    Fizz
+    Buzz
+    41
+    Fizz
+    43
+    44
+    FizzBuzz
+    46
+    47
+    Fizz
+    49
+    Buzz
+    Fizz
+    52
+    53
+    Fizz
+    Buzz
+    56
+    Fizz
+    58
+    59
+    FizzBuzz
+    61
+    62
+    Fizz
+    64
+    Buzz
+    Fizz
+    67
+    68
+    Fizz
+    Buzz
+    71
+    Fizz
+    73
+    74
+    FizzBuzz
+    76
+    77
+    Fizz
+    79
+    Buzz
+    Fizz
+    82
+    83
+    Fizz
+    Buzz
+    86
+    Fizz
+    88
+    89
+    FizzBuzz
+    91
+    92
+    Fizz
+    94
+    Buzz
+    Fizz
+    97
+    98
+    Fizz
+    Buzz
+
+
+
+```python
+"""
+number = 0
+while number <= 99:
+    number = number + 1
+    if number % 5 == 0 and number % 3 == 0:
+        print("FizzBuzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    else:
+        print(number)
+"""
+```
+
+
+
+
+    '\nnumber = 0\nwhile number <= 99:\n    number = number + 1\n    if number % 5 == 0 and number % 3 == 0:\n        print("FizzBuzz")\n    elif number % 3 == 0:\n        print("Fizz")\n    elif number % 5 == 0:\n        print("Buzz")\n    else:\n        print(number)\n'
+
+
+
+
+```python
+
+iterable_object = "A string is an example of an iterable object."
+new_list = [item for item in iterable_object]
+```
+
+
+```python
+animal_list = ["dog", "owl", "fox", "snake", "mouse", "squirrel", "fish"]
+animals_w_legs = [animal for animal in animal_list
+                  if animal != "snake" and animal != "fish"]
+animal_list
+```
+
+
+
+
+    ['dog', 'owl', 'fox', 'snake', 'mouse', 'squirrel', 'fish']
+
+
+6.2.2 List and Loop Exercise
+
+```python
+word_list = ["able", "barrel", "beef", "beep", "biggest", "bookshelf",
+             "bottle", "broken", "chip", "chrome", "clay", "clip",
+             "colander", "collection", "complicated", "cousin", "crispy",
+             "dance", "drench", "drums", "egg", "elastic", "engine", "felt",
+             "fighting", "fine", "fire", "folder", "foolish", "freezing",
+             "fried", "fumble", "fuzzy", "gas", "green", "grief", "gross",
+             "grown", "harmonica", "hulking", "hybrid", "icon", "input", "jet",
+             "kindness", "lemon", "lurch", "melon", "mulch", "no", "obscuring",
+             "output", "political", "quit", "red", "regal", "rent", "retro",
+             "retry", "ride", "sad", "silly", "smell", "spatula", "steel",
+             "supermarket", "tab", "teeth", "tip", "tree", "trip", "tube",
+             "turtle", "unlikely", "varnish", "vine", "vulture", "wind",
+             "wing", "wink", "word", "written", "xenon", "yoghurt", "zesty"]
+```
+
+
+```python
+g_words = [word for word in word_list if "g" in word]
+print(g_words)
+```
+
+    ['biggest', 'egg', 'engine', 'fighting', 'freezing', 'gas', 'green', 'grief', 'gross', 'grown', 'hulking', 'obscuring', 'regal', 'wing', 'yoghurt']
+
